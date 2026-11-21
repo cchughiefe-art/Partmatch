@@ -1,7 +1,7 @@
 "use client";
 import { FormEvent, useState } from "react";
 type Result = {
- screen_part_id:number; part_number:string; screen_type:string|null; assembly_type:string|null; manufacturer:string|null;
+ screen_part_id:number; part_number:string; screen_type:string|null; assembly_type:string|null; manufacturer:string|null; color:string|null; quality_class:string|null; touchscreen:string|null; matrix_type:string|null; source_title:string|null; source_product_id:string|null;
  device_id:number; brand:string; marketing_name:string; model_code:string|null; region:string|null; status:string;
  evidence_source:string|null; evidence_url:string|null; notes:string|null; checked_at:string|null;
 };
@@ -43,7 +43,7 @@ export default function Home() {
    {results.length>0&&<><div className="results-heading"><div><span className="eyebrow">MATCH RESULTS</span><h2>{results.length} compatible device record{results.length===1?"":"s"}</h2></div><span className="group-count">{Object.keys(grouped).length} screen group{Object.keys(grouped).length===1?"":"s"}</span></div>
     <div className="result-list">{Object.values(grouped).map(({part,devices})=><article className="part-card" key={part.screen_part_id}>
      <div className="part-head"><div><span className="card-label">SCREEN / LCD PART</span><h3>{part.part_number}</h3></div><span className="device-count">{devices.length} device{devices.length===1?"":"s"}</span></div>
-     <div className="part-meta">{part.screen_type&&<span>{part.screen_type}</span>}{part.assembly_type&&<span>{part.assembly_type}</span>}{part.manufacturer&&<span>{part.manufacturer}</span>}</div>
+     <div className="part-meta">{part.screen_type&&<span>{part.screen_type}</span>}{part.assembly_type&&<span>{part.assembly_type}</span>}{part.manufacturer&&<span>{part.manufacturer}</span>}{part.color&&<span>{part.color}</span>}{part.quality_class&&<span>{part.quality_class}</span>}{part.touchscreen&&<span>{part.touchscreen}</span>}{part.matrix_type&&<span>{part.matrix_type}</span>}</div>
      <div className="device-list">{devices.map(device=><div className="device-row" key={device.device_id}><div><strong>{device.brand} {device.marketing_name}</strong><small>{device.model_code||"Model code not recorded"}{device.region?" · "+device.region:""}</small></div><span className={"status status-"+device.status}>{statusLabels[device.status]||device.status}</span></div>)}</div>
      {(part.evidence_source||part.evidence_url||part.notes)&&<div className="evidence"><span className="card-label">EVIDENCE &amp; NOTES</span><p>{part.evidence_source||"Source not recorded"}{part.notes?" — "+part.notes:""}</p>{part.evidence_url&&<a href={part.evidence_url} target="_blank" rel="noreferrer">Open evidence ↗</a>}</div>}
     </article>)}</div></>}
