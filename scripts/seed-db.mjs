@@ -45,6 +45,9 @@ const groupRows = catalog.groups.map((g) => ({ ref: g.ref, part: g.part }));
 const flatModels = catalog.groups.flatMap((g) => g.models.map(([brand, marketing_name, model_code]) => ({
   ref: g.ref, brand, marketing_name, model_code: model_code || null
 })));
+const uniqueDeviceRows = [...new Map(flatModels.map((m) => [
+  `${m.brand.toLowerCase()}|${m.marketing_name.toLowerCase()}|${(m.model_code || "").toLowerCase()}`, m
+])).values()];
 const uniqueBrands = [...new Set(flatModels.map((m) => m.brand))].map((name) => ({
   name, slug: name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")
 }));
@@ -108,7 +111,7 @@ await sql.query(
          OR (p.model_aliases IS NOT NULL AND LOWER(COALESCE(d.model_aliases,'')) LIKE '%'||LOWER(p.model_aliases)||'%'))
    )
    ON CONFLICT DO NOTHING`,
-  [JSON.stringify(flatModels.map(({brand,marketing_name,model_code})=>({brand,marketing_name,model_code})))]
+  [JSON.stringify(uniqueDeviceRows.map(({brand,marketing_name,model_code})=>({brand,marketing_name,model_code})))]
 );
 
 await sql.query(
