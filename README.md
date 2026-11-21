@@ -36,8 +36,14 @@ Compatibility statuses:
 
 Record evidence_source, evidence_url where available, and concise notes. Visual similarity alone is not proof of compatibility.
 
-## Data status
-The schema intentionally starts empty. No compatibility claims are fabricated. The search application is ready, but records must be imported from sourced catalogues, manufacturer documentation, or physical test records before it can return results. It is not yet a complete all-brand verified catalogue.
+## Current catalogue status
+The live database currently contains 14 brands, 375 device records, 83 screen-part records, and 388 supplier-listed compatibility relations. The latest public supplier-catalogue import added 79 groups and 374 model entries across Samsung, Motorola, Xiaomi, POCO, OPPO, Realme, OnePlus, Vivo, Tecno, Infinix, itel, Honor, and ZTE.
+
+Primary imported source: [Crown QZ / QT Mobile LCD Compatibility Catalogue (2025-04-09)](https://www.scribd.com/document/919633992/Crown-Lcd-Qt-Lcd-2025-04-09). The structured import is in `database/research-catalog.json`. Additional public references are used as research leads and cross-checks.
+
+**Verification status:** the imported supplier records are labelled `supplier_listed`; they are not independent bench tests. The database currently has no independently bench-verified compatibility claims. Exact regional model code, panel revision, flex, connector, frame and touch variant must be checked before installation. Conflicting supplier claims should remain flagged rather than merged into a guaranteed fitment.
+
+The catalogue is an expanding reference, not an exhaustive list of every phone or every LCD currently sold.
 
 ## API
 GET /api/search?q=BG6 returns up to 100 matching records. Search covers device name, model code, brand, screen part number, and screen manufacturer.
