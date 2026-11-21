@@ -37,9 +37,9 @@ Compatibility statuses:
 Record evidence_source, evidence_url where available, and concise notes. Visual similarity alone is not proof of compatibility.
 
 ## Current catalogue status
-The live database currently contains 14 brands, 375 device records, 83 screen-part records, and 388 supplier-listed compatibility relations. The latest public supplier-catalogue import added 79 groups and 374 model entries across Samsung, Motorola, Xiaomi, POCO, OPPO, Realme, OnePlus, Vivo, Tecno, Infinix, itel, Honor, and ZTE.
+The research catalogue now contains 165 source-grouped LCD/combo compatibility groups and 807 listed model entries across 14 brands: Samsung, Motorola, Xiaomi, POCO, OPPO, Realme, OnePlus, Vivo, iQOO, Tecno, Infinix, itel, Honor, and ZTE. This count is catalogue entries, not a claim of 807 unique physical panels or independently verified fits. It includes 86 groups from Combo Universal and earlier Crown/QZ/QT supplier catalogue groupings.
 
-Primary imported source: [Crown QZ / QT Mobile LCD Compatibility Catalogue (2025-04-09)](https://www.scribd.com/document/919633992/Crown-Lcd-Qt-Lcd-2025-04-09). The structured import is in `database/research-catalog.json`. Additional public references are used as research leads and cross-checks.
+Sources: [Crown QZ / QT Mobile LCD Compatibility Catalogue (2025-04-09)](https://www.scribd.com/document/919633992/Crown-Lcd-Qt-Lcd-2025-04-09) and [Combo Universal](https://combouniversal.com/), including brand-specific pages linked in `database/research-catalog.json`.
 
 **Verification status:** the imported supplier records are labelled `supplier_listed`; they are not independent bench tests. The database currently has no independently bench-verified compatibility claims. Exact regional model code, panel revision, flex, connector, frame and touch variant must be checked before installation. Conflicting supplier claims should remain flagged rather than merged into a guaranteed fitment.
 
