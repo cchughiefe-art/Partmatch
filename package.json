@@ -8,7 +8,8 @@
     "start": "next start",
     "db:setup": "node scripts/setup-db.mjs",
     "typecheck": "tsc --noEmit",
-    "prebuild": "node scripts/setup-db.mjs && node scripts/seed-db.mjs"
+    "prebuild": "node scripts/setup-db.mjs && node scripts/seed-db.mjs",
+    "db:seed": "node scripts/seed-db.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
