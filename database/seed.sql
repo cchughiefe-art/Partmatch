@@ -57,7 +57,6 @@ SELECT 'BG6CL', 'LCD', 'LCD + touch, without frame', 'Aftermarket',
 WHERE NOT EXISTS (SELECT 1 FROM screen_parts WHERE LOWER(part_number)=LOWER('BG6CL'));
 
 WITH input(brand, marketing_name, model_code) AS (VALUES
- ('Tecno','Spark Go 2024','BG6'),
  ('Tecno','Spark Go 2024','BG6')
 )
 INSERT INTO devices (brand_id, marketing_name, model_code)
