@@ -1,0 +1,1384 @@
+{
+  "source": {
+    "title": "Crown QZ / QT Mobile LCD Compatibility Catalogue (2025-04-09)",
+    "url": "https://www.scribd.com/document/919633992/Crown-Lcd-Qt-Lcd-2025-04-09",
+    "publisher": "Crown LCD / QT Quality supplier catalogue as reproduced on Scribd",
+    "sourceType": "supplier_catalogue",
+    "status": "supplier_listed",
+    "notes": "Supplier-published replacement LCD groupings. Catalogue groups are not independent bench tests. Part reference is an internal PartMatch catalogue reference, not a printed flex marking unless stated."
+  },
+  "groups": [
+    {
+      "ref": "QZ-SAM-01",
+      "part": "A02S",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A02s",
+          "SM-A025"
+        ],
+        [
+          "Samsung",
+          "Galaxy A03",
+          "SM-A035"
+        ],
+        [
+          "Samsung",
+          "Galaxy A03s",
+          "SM-A035"
+        ],
+        [
+          "Samsung",
+          "Galaxy A04e",
+          "SM-A042"
+        ],
+        [
+          "Samsung",
+          "Galaxy M04",
+          "SM-M045"
+        ],
+        [
+          "Samsung",
+          "Galaxy F04",
+          "SM-E045"
+        ],
+        [
+          "Samsung",
+          "Galaxy F02s",
+          "SM-E025"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-02",
+      "part": "A03 Core",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A03 Core",
+          "SM-A032M"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-03",
+      "part": "A04",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A04",
+          "SM-A045"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-04",
+      "part": "A14-4G",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A14 4G",
+          "SM-A145P"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-05",
+      "part": "A13/M13",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A13 4G",
+          "SM-A135"
+        ],
+        [
+          "Samsung",
+          "Galaxy M13 4G",
+          "SM-M135"
+        ],
+        [
+          "Samsung",
+          "Galaxy F13 4G",
+          "SM-E135"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-06",
+      "part": "A10",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A10",
+          "SM-A105"
+        ],
+        [
+          "Samsung",
+          "Galaxy M10",
+          "SM-M105"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-07",
+      "part": "A12",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A02",
+          "SM-A022"
+        ],
+        [
+          "Samsung",
+          "Galaxy A12",
+          "SM-A125"
+        ],
+        [
+          "Samsung",
+          "Galaxy A12s",
+          "SM-A127"
+        ],
+        [
+          "Samsung",
+          "Galaxy A32 5G",
+          "SM-A326"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-MOTO-01",
+      "part": "Moto G9/G9 Play/E7 Plus",
+      "models": [
+        [
+          "Motorola",
+          "Moto G9",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto G9 Play",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto E7 Plus",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-MOTO-02",
+      "part": "Moto G13/G23/G34/G53",
+      "models": [
+        [
+          "Motorola",
+          "Moto G13",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto G23",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto G34 5G",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto G53 5G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-MOTO-03",
+      "part": "Moto G04 family",
+      "models": [
+        [
+          "Motorola",
+          "Moto G04",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto G04s",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto G24",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto G24 Power",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto E14",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-MOTO-04",
+      "part": "Moto G10/G20/G30",
+      "models": [
+        [
+          "Motorola",
+          "Moto G10",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto G20",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto G30",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto G10 Power",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-REDMI-01",
+      "part": "Redmi A1/A2",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi A1",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi A1+",
+          ""
+        ],
+        [
+          "POCO",
+          "C50",
+          ""
+        ],
+        [
+          "POCO",
+          "C51",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi A2",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi A2+",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-REDMI-02",
+      "part": "Redmi 9/9 Prime",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 9",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 9 Prime",
+          ""
+        ],
+        [
+          "POCO",
+          "M2",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-REDMI-03",
+      "part": "Redmi 9 Power",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 9 Power",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 9T",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 9 4G",
+          ""
+        ],
+        [
+          "POCO",
+          "M3",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-REDMI-04",
+      "part": "Redmi 9A",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 9A",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 9A Sport",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 9AT",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 9C",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 9i",
+          ""
+        ],
+        [
+          "POCO",
+          "C3",
+          ""
+        ],
+        [
+          "POCO",
+          "C31",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 10A",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-OPPO-01",
+      "part": "OPPO A15/A16 family",
+      "models": [
+        [
+          "OPPO",
+          "A15",
+          "CPH2185"
+        ],
+        [
+          "OPPO",
+          "A15s",
+          ""
+        ],
+        [
+          "OPPO",
+          "A16",
+          "CPH2269"
+        ],
+        [
+          "OPPO",
+          "A16s",
+          "CPH2271"
+        ],
+        [
+          "OPPO",
+          "A16k",
+          ""
+        ],
+        [
+          "OPPO",
+          "A16e",
+          ""
+        ],
+        [
+          "OPPO",
+          "A35",
+          ""
+        ],
+        [
+          "OPPO",
+          "A54s",
+          "CPH2273"
+        ],
+        [
+          "Realme",
+          "C25",
+          ""
+        ],
+        [
+          "Realme",
+          "C25s",
+          ""
+        ],
+        [
+          "Realme",
+          "Narzo 50A",
+          ""
+        ],
+        [
+          "Realme",
+          "A53s 5G",
+          ""
+        ],
+        [
+          "Realme",
+          "A55 5G",
+          ""
+        ],
+        [
+          "Realme",
+          "A56 5G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-OPPO-02",
+      "part": "OPPO A57 family",
+      "models": [
+        [
+          "OPPO",
+          "A57 4G",
+          ""
+        ],
+        [
+          "OPPO",
+          "A57 5G",
+          ""
+        ],
+        [
+          "OPPO",
+          "A57s",
+          ""
+        ],
+        [
+          "OPPO",
+          "A57e",
+          ""
+        ],
+        [
+          "OPPO",
+          "K10 5G",
+          ""
+        ],
+        [
+          "OPPO",
+          "A77 4G",
+          ""
+        ],
+        [
+          "OPPO",
+          "A77 5G",
+          ""
+        ],
+        [
+          "OPPO",
+          "A77s",
+          ""
+        ],
+        [
+          "OPPO",
+          "A17",
+          ""
+        ],
+        [
+          "OPPO",
+          "A17k",
+          ""
+        ],
+        [
+          "OPPO",
+          "A18",
+          ""
+        ],
+        [
+          "OPPO",
+          "A38",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-OPPO-03",
+      "part": "OPPO A53/A54 family",
+      "models": [
+        [
+          "OPPO",
+          "A32",
+          ""
+        ],
+        [
+          "OPPO",
+          "A33 (2020)",
+          ""
+        ],
+        [
+          "OPPO",
+          "A53",
+          ""
+        ],
+        [
+          "OPPO",
+          "A53s",
+          ""
+        ],
+        [
+          "OPPO",
+          "A11s",
+          ""
+        ],
+        [
+          "OPPO",
+          "A54 4G",
+          ""
+        ],
+        [
+          "OPPO",
+          "A55 5G",
+          ""
+        ],
+        [
+          "Realme",
+          "7i",
+          "RMX2193"
+        ],
+        [
+          "Realme",
+          "C17",
+          ""
+        ],
+        [
+          "OnePlus",
+          "Nord N100",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-OPPO-04",
+      "part": "Realme C21Y/C25Y",
+      "models": [
+        [
+          "Realme",
+          "C21Y",
+          ""
+        ],
+        [
+          "Realme",
+          "C25Y",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-OPPO-05",
+      "part": "Realme C20",
+      "models": [
+        [
+          "Realme",
+          "C20",
+          ""
+        ],
+        [
+          "Realme",
+          "C11 2021",
+          ""
+        ],
+        [
+          "Realme",
+          "C21",
+          ""
+        ],
+        [
+          "Realme",
+          "Narzo 50i",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-OPPO-06",
+      "part": "Realme C35/Narzo 50A Prime",
+      "models": [
+        [
+          "Realme",
+          "C35",
+          "RMX3511"
+        ],
+        [
+          "Realme",
+          "Narzo 50A Prime",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-VIVO-01",
+      "part": "Vivo Y20/Y21/Y16 family",
+      "models": [
+        [
+          "Vivo",
+          "Y20",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y20t",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y20a",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y20s",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y20i",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y12g",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y20sg",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y12s",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y12a",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y15s",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y15a",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y11s",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y01",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y21",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y21s",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y21a",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y21t",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y16",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-ITI-01",
+      "part": "KE5",
+      "models": [
+        [
+          "Tecno",
+          "Spark Go 2020",
+          "KE5"
+        ],
+        [
+          "Tecno",
+          "Spark Go 2021",
+          "KE5"
+        ],
+        [
+          "Tecno",
+          "Spark 6 Go",
+          "KE5J"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-ITI-02",
+      "part": "X6515/BF6/BF7/KI5K family",
+      "models": [
+        [
+          "Infinix",
+          "Smart 7",
+          "X6515"
+        ],
+        [
+          "Infinix",
+          "Smart 7 HD",
+          "X6516"
+        ],
+        [
+          "Infinix",
+          "Smart 7 India",
+          "X6517"
+        ],
+        [
+          "Infinix",
+          "Hot 30i",
+          "X669"
+        ],
+        [
+          "Infinix",
+          "Hot 30i",
+          "X669C"
+        ],
+        [
+          "Infinix",
+          "Hot 30i",
+          "X669D"
+        ],
+        [
+          "itel",
+          "P40",
+          "P662L"
+        ],
+        [
+          "Tecno",
+          "Pop 7",
+          "BF6"
+        ],
+        [
+          "Tecno",
+          "Spark Go 2023",
+          "BF7"
+        ],
+        [
+          "Tecno",
+          "Spark Go 2023",
+          "BF7N"
+        ],
+        [
+          "Tecno",
+          "Pop 7 Pro",
+          "BF7H"
+        ],
+        [
+          "Tecno",
+          "Spark 10C",
+          "BF6"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-ITI-03",
+      "part": "KG5/BD4",
+      "models": [
+        [
+          "Tecno",
+          "Spark Go 2022",
+          "KG5"
+        ],
+        [
+          "Tecno",
+          "Pop 5 LTE",
+          "BD4"
+        ],
+        [
+          "Tecno",
+          "Pop 5 Pro",
+          "BD4J"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-ITI-04",
+      "part": "X650",
+      "models": [
+        [
+          "Infinix",
+          "Hot 8 Lite",
+          "X650"
+        ],
+        [
+          "Tecno",
+          "Camon 12",
+          "CC7"
+        ],
+        [
+          "Tecno",
+          "Spark 4",
+          "KC8"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-ITI-05",
+      "part": "X657",
+      "models": [
+        [
+          "Infinix",
+          "Smart 5",
+          "X657"
+        ],
+        [
+          "Infinix",
+          "Smart 5A",
+          "X657C"
+        ],
+        [
+          "Tecno",
+          "Hot 10 Lite",
+          "X657B"
+        ],
+        [
+          "itel",
+          "P36",
+          "W6501"
+        ],
+        [
+          "itel",
+          "P36 Pro LTE",
+          "L6501"
+        ],
+        [
+          "itel",
+          "P37",
+          "P651W"
+        ],
+        [
+          "itel",
+          "S16",
+          "W6502"
+        ],
+        [
+          "itel",
+          "Vision 1 Plus",
+          ""
+        ],
+        [
+          "itel",
+          "Vision 1 Pro",
+          "L6502"
+        ],
+        [
+          "itel",
+          "Vision 2S",
+          "P651"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-ITI-06",
+      "part": "X682/CE7 family",
+      "models": [
+        [
+          "Tecno",
+          "Camon 16",
+          "CE7"
+        ],
+        [
+          "Tecno",
+          "Camon 16 SE",
+          "CE7J"
+        ],
+        [
+          "Infinix",
+          "Hot 10",
+          "X682"
+        ],
+        [
+          "Infinix",
+          "Hot 10",
+          "X682B"
+        ],
+        [
+          "Infinix",
+          "Hot 10",
+          "X682C"
+        ],
+        [
+          "Infinix",
+          "Note 8i",
+          "X683"
+        ],
+        [
+          "Infinix",
+          "Note 10i",
+          "X683C"
+        ],
+        [
+          "Tecno",
+          "Pova",
+          "LD7"
+        ],
+        [
+          "Tecno",
+          "Spark 6",
+          "KE7"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-ITI-07",
+      "part": "KG5K family",
+      "models": [
+        [
+          "Tecno",
+          "Spark 8C",
+          "KG5K"
+        ],
+        [
+          "Tecno",
+          "Spark 8C",
+          "KG5J"
+        ],
+        [
+          "Tecno",
+          "Spark 9",
+          "KG5P"
+        ],
+        [
+          "Tecno",
+          "Spark 9T",
+          "KH6"
+        ],
+        [
+          "itel",
+          "Vision 3",
+          "S661L"
+        ],
+        [
+          "itel",
+          "Vision 3",
+          "S661LN"
+        ],
+        [
+          "itel",
+          "Vision 5",
+          "S663LC"
+        ],
+        [
+          "itel",
+          "S18",
+          "S663L"
+        ],
+        [
+          "itel",
+          "P38",
+          "P661W"
+        ],
+        [
+          "Infinix",
+          "Hot 12 Pro",
+          "X668"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-ITI-08",
+      "part": "X6816/X6825 family",
+      "models": [
+        [
+          "Infinix",
+          "Hot 12 Play",
+          "X6816"
+        ],
+        [
+          "Infinix",
+          "Hot 12 Play",
+          "X6816C"
+        ],
+        [
+          "Infinix",
+          "Hot 12",
+          "X6817"
+        ],
+        [
+          "Infinix",
+          "Note 12i",
+          "X6819"
+        ],
+        [
+          "Infinix",
+          "Hot 20 Play",
+          "X6825"
+        ],
+        [
+          "Infinix",
+          "Hot 30 Play NFC",
+          "X6835"
+        ],
+        [
+          "Tecno",
+          "Pova 4",
+          "LG7N"
+        ],
+        [
+          "Tecno",
+          "Pova Neo 2",
+          "LG6N"
+        ],
+        [
+          "Tecno",
+          "Pova Neo 3",
+          "LH6N"
+        ],
+        [
+          "itel",
+          "P40+",
+          "P683L"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-ITI-09",
+      "part": "X6525 family",
+      "models": [
+        [
+          "Infinix",
+          "Smart 8 HD",
+          "X6525"
+        ],
+        [
+          "Infinix",
+          "Smart 8",
+          "X6525"
+        ],
+        [
+          "Infinix",
+          "Smart 8 Plus",
+          "X6526"
+        ],
+        [
+          "Infinix",
+          "Hot 40i",
+          "X6528"
+        ],
+        [
+          "Tecno",
+          "Spark Go 2024",
+          "BG6"
+        ],
+        [
+          "Tecno",
+          "Pop 8",
+          "BG6H"
+        ],
+        [
+          "Tecno",
+          "Spark 20C",
+          "BG7"
+        ],
+        [
+          "itel",
+          "P55",
+          "A666L"
+        ],
+        [
+          "itel",
+          "P55+",
+          "A666LN"
+        ],
+        [
+          "itel",
+          "A70S",
+          "A666L"
+        ],
+        [
+          "itel",
+          "RS4",
+          "S666LN"
+        ],
+        [
+          "itel",
+          "S24",
+          "S667LN"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-ITI-10",
+      "part": "X6720/X6531/X6532",
+      "models": [
+        [
+          "Tecno",
+          "Pop 9",
+          "KL4"
+        ],
+        [
+          "Tecno",
+          "Spark Go 1",
+          "KL4"
+        ],
+        [
+          "Tecno",
+          "Spark Go 1S",
+          "KL4H"
+        ],
+        [
+          "Tecno",
+          "Spark 30C",
+          "KL5"
+        ],
+        [
+          "Tecno",
+          "Spark 30C NFC",
+          "KL5N"
+        ],
+        [
+          "Tecno",
+          "Spark 30 5G",
+          "KL8"
+        ],
+        [
+          "Tecno",
+          "Pova 6 Neo 5G",
+          "KL8"
+        ],
+        [
+          "itel",
+          "P65",
+          "P671L"
+        ],
+        [
+          "Infinix",
+          "Hot 50 5G",
+          "X6720"
+        ],
+        [
+          "Infinix",
+          "Hot 50i",
+          "X6531"
+        ],
+        [
+          "Infinix",
+          "Smart 9",
+          "X6532"
+        ],
+        [
+          "Infinix",
+          "Smart 9 HD",
+          "X6532C"
+        ],
+        [
+          "ZTE",
+          "Blade V70",
+          ""
+        ],
+        [
+          "ZTE",
+          "Blade V70 Vita",
+          ""
+        ],
+        [
+          "ZTE",
+          "Blade V70 Design",
+          ""
+        ],
+        [
+          "ZTE",
+          "Axon 70 Lite",
+          ""
+        ],
+        [
+          "ZTE",
+          "Nubia Music 2",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-REDMI-01",
+      "part": "Redmi Note 9S/9 Pro",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 9S",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 9 Pro",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 9 Pro Max",
+          ""
+        ],
+        [
+          "POCO",
+          "M2 Pro",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-REDMI-02",
+      "part": "Redmi K40/POCO F3/F4",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi K40",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi K40S",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi K40 Pro",
+          ""
+        ],
+        [
+          "POCO",
+          "F3",
+          ""
+        ],
+        [
+          "POCO",
+          "F4",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Black Shark 4",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Black Shark 4S",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-REDMI-03",
+      "part": "Redmi Note 10/10S",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 10 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 10S",
+          ""
+        ],
+        [
+          "POCO",
+          "M5s",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 11 SE",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-HONOR-01",
+      "part": "Honor X30i/X8",
+      "models": [
+        [
+          "Honor",
+          "X30i",
+          ""
+        ],
+        [
+          "Honor",
+          "X8 4G",
+          ""
+        ],
+        [
+          "Honor",
+          "X40i",
+          ""
+        ],
+        [
+          "Honor",
+          "Play 6 Pro",
+          ""
+        ],
+        [
+          "Honor",
+          "Play 7T Pro",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-HONOR-02",
+      "part": "Honor X50i/X8a",
+      "models": [
+        [
+          "Honor",
+          "X50i",
+          ""
+        ],
+        [
+          "Honor",
+          "X8a 4G",
+          ""
+        ],
+        [
+          "Honor",
+          "90 Lite",
+          ""
+        ]
+      ]
+    }
+  ]
+}
