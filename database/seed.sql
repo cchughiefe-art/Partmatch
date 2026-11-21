@@ -6,6 +6,19 @@ INSERT INTO brands (name, slug) VALUES
  ('Tecno','tecno'), ('Infinix','infinix')
 ON CONFLICT (name) DO NOTHING;
 
+-- Refresh model identifiers on records created by earlier seed versions.
+UPDATE devices d SET model_code = v.model_code
+FROM brands b, (VALUES
+ ('Tecno','Spark Go (2023)','BF7 / BF7N'),
+ ('Tecno','Spark 10','KI5N / KI5Q'),
+ ('Tecno','Spark 10C','KI5K / KI5M'),
+ ('Tecno','Pop 7 Pro','BF7H'),
+ ('Infinix','Smart 8','X6525 / X6525D'),
+ ('Infinix','Smart 8 Plus','X6526'),
+ ('Infinix','Hot 40i','X6528 / X6528B')
+) AS v(brand_name, phone_name, model_code)
+WHERE d.brand_id=b.id AND b.name=v.brand_name AND d.marketing_name=v.phone_name;
+
 -- Supplier listing: GsmServer product #916763, FPC6605-5 / FPC6605-05 family.
 -- The listing explicitly names these seven device families.
 INSERT INTO screen_parts (part_number, screen_type, assembly_type, manufacturer, notes)
