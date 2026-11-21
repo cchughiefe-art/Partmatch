@@ -1379,6 +1379,978 @@
           ""
         ]
       ]
+    },
+    {
+      "ref": "QZ-SAM-08",
+      "part": "A11",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A11",
+          "SM-A115"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-09",
+      "part": "A10s",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A10s",
+          "SM-A107"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-10",
+      "part": "A20s",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A20s",
+          "SM-A207"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-11",
+      "part": "A22 5G",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A22 5G",
+          "SM-A226"
+        ],
+        [
+          "Samsung",
+          "Galaxy A22s 5G",
+          "SM-A226"
+        ],
+        [
+          "Samsung",
+          "Galaxy F42 5G",
+          "SM-E426"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-12",
+      "part": "A05",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A05",
+          "SM-A055"
+        ],
+        [
+          "Samsung",
+          "Galaxy A05M",
+          "SM-A055"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-13",
+      "part": "A21s",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A21s",
+          "SM-A217"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-14",
+      "part": "A14 5G",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A14 5G",
+          "SM-A146"
+        ],
+        [
+          "Samsung",
+          "Galaxy M14 5G",
+          ""
+        ],
+        [
+          "Samsung",
+          "Galaxy F14 5G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-15",
+      "part": "J6+/J4+",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy J6+",
+          "SM-J610"
+        ],
+        [
+          "Samsung",
+          "Galaxy J4+",
+          "SM-J415"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-16",
+      "part": "A20",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A20",
+          "SM-A205"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-SAM-17",
+      "part": "A23 family",
+      "models": [
+        [
+          "Samsung",
+          "Galaxy A13 4G",
+          "SM-A135"
+        ],
+        [
+          "Samsung",
+          "Galaxy M13 4G",
+          "SM-M135"
+        ],
+        [
+          "Samsung",
+          "Galaxy F13 4G",
+          "SM-E135"
+        ],
+        [
+          "Samsung",
+          "Galaxy A23 4G",
+          "SM-A235"
+        ],
+        [
+          "Samsung",
+          "Galaxy A23 5G",
+          "SM-A236"
+        ],
+        [
+          "Samsung",
+          "Galaxy M23 5G",
+          "SM-M236"
+        ],
+        [
+          "Samsung",
+          "Galaxy M33 5G",
+          "SM-M336"
+        ],
+        [
+          "Samsung",
+          "Galaxy F23 5G",
+          "SM-E236"
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-MOTO-05",
+      "part": "Moto G7 Power",
+      "models": [
+        [
+          "Motorola",
+          "Moto G7 Power",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-MOTO-06",
+      "part": "Moto E20",
+      "models": [
+        [
+          "Motorola",
+          "Moto E20",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-MOTO-07",
+      "part": "Moto E22/E22i",
+      "models": [
+        [
+          "Motorola",
+          "Moto E22",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto E22i",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-MOTO-08",
+      "part": "Moto E7 family",
+      "models": [
+        [
+          "Motorola",
+          "Moto E7",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto E7 Power",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto E7i Power",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-MOTO-09",
+      "part": "Moto G22/E32",
+      "models": [
+        [
+          "Motorola",
+          "Moto G22",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto E32",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto E32s",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto E22s",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-MOTO-10",
+      "part": "Moto E13",
+      "models": [
+        [
+          "Motorola",
+          "Moto E13",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-MOTO-11",
+      "part": "Moto E30/E40",
+      "models": [
+        [
+          "Motorola",
+          "Moto E30",
+          ""
+        ],
+        [
+          "Motorola",
+          "Moto E40",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-REDMI-05",
+      "part": "Redmi 10C/12C",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 10C",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 10 Power",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 12C",
+          ""
+        ],
+        [
+          "POCO",
+          "C40",
+          ""
+        ],
+        [
+          "POCO",
+          "C55",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-REDMI-06",
+      "part": "Redmi 8A",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 8",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 8A",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-REDMI-07",
+      "part": "Redmi 10 5G/Note 11E",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 10 5G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 11E",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 11 Prime 5G",
+          ""
+        ],
+        [
+          "POCO",
+          "M4 5G",
+          ""
+        ],
+        [
+          "POCO",
+          "M5 India",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-REDMI-08",
+      "part": "Redmi Note 8",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 8",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 8 2021",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-REDMI-09",
+      "part": "Redmi Note 9",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 9",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 10X 4G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-REDMI-10",
+      "part": "Redmi Note 7",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 7",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 7 Pro",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 7S",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-REDMI-11",
+      "part": "Redmi 13C",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 13C 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 13C 5G",
+          ""
+        ],
+        [
+          "POCO",
+          "M6 5G",
+          ""
+        ],
+        [
+          "POCO",
+          "C65",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-MI-01",
+      "part": "Mi 8 Lite",
+      "models": [
+        [
+          "Xiaomi",
+          "Mi 8 Lite",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Mi 8 Youth",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Mi 8X",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QZ-MI-02",
+      "part": "POCO F1",
+      "models": [
+        [
+          "POCO",
+          "F1",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-REDMI-04",
+      "part": "Redmi Note 12/POCO X5",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 12 5G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 12 4G",
+          ""
+        ],
+        [
+          "POCO",
+          "X5 5G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-REDMI-05",
+      "part": "Redmi Note 11/11S",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 11 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 11S 4G",
+          ""
+        ],
+        [
+          "POCO",
+          "M4 Pro 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 12S",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-REDMI-06",
+      "part": "Redmi 10/10 Prime",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 10 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 10 2022",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 10 Prime",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 10 Prime 2022",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-REDMI-07",
+      "part": "Redmi Note 10 5G/POCO M3 Pro",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 10 5G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 11 SE",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 10T 5G",
+          ""
+        ],
+        [
+          "POCO",
+          "M3 Pro 5G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-REDMI-08",
+      "part": "POCO X3/MI 10i",
+      "models": [
+        [
+          "POCO",
+          "X3",
+          ""
+        ],
+        [
+          "POCO",
+          "X3 NFC",
+          ""
+        ],
+        [
+          "POCO",
+          "X3 Pro",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Mi 10i",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 9 Pro 5G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-REDMI-09",
+      "part": "Redmi 12/13 family",
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 12 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 12 5G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 13 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 13 5G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 13R",
+          ""
+        ],
+        [
+          "POCO",
+          "M6 Pro 5G",
+          ""
+        ],
+        [
+          "POCO",
+          "M6 Plus 5G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 12R",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-OPPO-07",
+      "part": "Realme C55 / OPPO A58",
+      "models": [
+        [
+          "Realme",
+          "C55",
+          "RMX3710"
+        ],
+        [
+          "Realme",
+          "Narzo N55",
+          ""
+        ],
+        [
+          "Realme",
+          "Narzo 60x 5G",
+          ""
+        ],
+        [
+          "Realme",
+          "11 5G",
+          "RMX3780"
+        ],
+        [
+          "Realme",
+          "11x 5G",
+          "RMX3785"
+        ],
+        [
+          "OPPO",
+          "A58 4G",
+          "CPH2577"
+        ],
+        [
+          "OPPO",
+          "A79 5G",
+          "CPH2553"
+        ],
+        [
+          "OPPO",
+          "A98 5G",
+          "CPH2529"
+        ],
+        [
+          "Realme",
+          "C67 5G",
+          "RMX3782"
+        ],
+        [
+          "OPPO",
+          "F23 5G",
+          "CPH2527"
+        ],
+        [
+          "OnePlus",
+          "Nord N30 5G",
+          ""
+        ],
+        [
+          "OnePlus",
+          "Nord CE3 Lite 5G",
+          "CPH2467"
+        ]
+      ]
+    },
+    {
+      "ref": "QT-OPPO-08",
+      "part": "OPPO A17/A57/A77 family",
+      "models": [
+        [
+          "OPPO",
+          "A17",
+          "CPH2477"
+        ],
+        [
+          "OPPO",
+          "A17k",
+          ""
+        ],
+        [
+          "OPPO",
+          "A57 2022",
+          "CPH2387"
+        ],
+        [
+          "OPPO",
+          "A77 4G",
+          ""
+        ],
+        [
+          "OPPO",
+          "A77s",
+          ""
+        ],
+        [
+          "OPPO",
+          "A78 5G",
+          "CPH2495"
+        ],
+        [
+          "OPPO",
+          "A18",
+          "CPH2591"
+        ],
+        [
+          "OPPO",
+          "A38",
+          "CPH2579"
+        ],
+        [
+          "OPPO",
+          "A58 5G",
+          ""
+        ],
+        [
+          "OPPO",
+          "A59 5G",
+          "CPH2617"
+        ],
+        [
+          "OnePlus",
+          "Nord N20 SE",
+          "CPH2469"
+        ]
+      ]
+    },
+    {
+      "ref": "QT-VIVO-01",
+      "part": "Vivo V15/V15 Pro/X27",
+      "models": [
+        [
+          "Vivo",
+          "V15",
+          ""
+        ],
+        [
+          "Vivo",
+          "S1",
+          ""
+        ],
+        [
+          "Vivo",
+          "V15 Pro",
+          ""
+        ],
+        [
+          "Vivo",
+          "X27",
+          ""
+        ],
+        [
+          "Vivo",
+          "S1 Pro",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-VIVO-02",
+      "part": "Vivo V17/V19 Neo",
+      "models": [
+        [
+          "Vivo",
+          "V17",
+          ""
+        ],
+        [
+          "Vivo",
+          "V19 Neo",
+          ""
+        ],
+        [
+          "Vivo",
+          "S5",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-VIVO-03",
+      "part": "Vivo V17 Pro",
+      "models": [
+        [
+          "Vivo",
+          "V17 Pro",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-VIVO-04",
+      "part": "Vivo V19",
+      "models": [
+        [
+          "Vivo",
+          "V19",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-VIVO-05",
+      "part": "Vivo S7/V20 Pro",
+      "models": [
+        [
+          "Vivo",
+          "S7",
+          ""
+        ],
+        [
+          "Vivo",
+          "V20 Pro",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-VIVO-06",
+      "part": "Vivo S9/V23",
+      "models": [
+        [
+          "Vivo",
+          "S9",
+          ""
+        ],
+        [
+          "Vivo",
+          "S10",
+          ""
+        ],
+        [
+          "Vivo",
+          "S10 Pro",
+          ""
+        ],
+        [
+          "Vivo",
+          "S12",
+          ""
+        ],
+        [
+          "Vivo",
+          "V23 5G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-VIVO-07",
+      "part": "Vivo V21/S9e",
+      "models": [
+        [
+          "Vivo",
+          "V21 5G",
+          ""
+        ],
+        [
+          "Vivo",
+          "V21 4G",
+          ""
+        ],
+        [
+          "Vivo",
+          "T1 5G",
+          ""
+        ],
+        [
+          "Vivo",
+          "T1 Pro 5G",
+          ""
+        ],
+        [
+          "Vivo",
+          "V25",
+          ""
+        ],
+        [
+          "Vivo",
+          "V25e",
+          ""
+        ],
+        [
+          "Vivo",
+          "S9e",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "QT-VIVO-08",
+      "part": "Vivo Y100 5G",
+      "models": [
+        [
+          "Vivo",
+          "Y100 5G",
+          ""
+        ],
+        [
+          "Vivo",
+          "Y100A 5G",
+          ""
+        ],
+        [
+          "Vivo",
+          "T2 5G",
+          ""
+        ],
+        [
+          "iQOO",
+          "Z7s 5G",
+          ""
+        ],
+        [
+          "iQOO",
+          "Z7 5G",
+          ""
+        ]
+      ]
     }
   ]
 }
