@@ -122,7 +122,6 @@ WITH input(brand, marketing_name, model_code) AS (VALUES
  ('Tecno','Spark 10C','KI5K / KI5M'),
  ('itel','P40','P662L'),
  ('itel','P55 5G','P661N'),
- ('itel','Colour Pro 5G','P661N'),
  ('itel','A05s','A663L / A663LC'),
  ('itel','A05i','A663L'),
  ('itel','A50','A667L / A667LP'),
@@ -150,7 +149,7 @@ JOIN brands b ON b.id=d.brand_id
 JOIN screen_parts sp ON sp.part_number='CU-TI-2026-001'
 WHERE (LOWER(b.name)='infinix' AND d.marketing_name IN ('Smart 7','Smart 7 HD','Smart 7 Plus','Hot 30i'))
    OR (LOWER(b.name)='tecno' AND d.marketing_name IN ('Pop 7','Spark Go 2023','Pop 7 Pro','Spark K10','Spark 10','Spark K10 5G','Spark 10C'))
-   OR (LOWER(b.name)='itel' AND d.marketing_name IN ('P40','P55 5G','Colour Pro 5G','A05s','A05i','A50','A60','A60s','A70','S23'))
+   OR (LOWER(b.name)='itel' AND d.marketing_name IN ('P40','P55 5G','A05s','A05i','A50','A60','A60s','A70','S23'))
    OR (LOWER(b.name)='zte' AND d.marketing_name IN ('A34','A54'))
 ON CONFLICT (device_id, screen_part_id) DO UPDATE SET
  status='supplier_listed', evidence_source=EXCLUDED.evidence_source,
