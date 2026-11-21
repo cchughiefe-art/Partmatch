@@ -25,12 +25,8 @@ WHERE NOT EXISTS (SELECT 1 FROM screen_parts WHERE LOWER(part_number)=LOWER('FPC
 
 WITH input(brand, marketing_name, model_code) AS (VALUES
  ('Tecno','Spark Go (2023)','BF7 / BF7N'),
- ('Tecno','Spark 10','KI5N / KI5Q'),
- ('Tecno','Spark 10C','KI5K / KI5M'),
  ('Tecno','Pop 7','BF6'),
- ('Tecno','Pop 7 Pro','BF7H'),
- ('Infinix','Smart 7','X6515'),
-
+ ('Infinix','Smart 7','X6515')
 )
 INSERT INTO devices (brand_id, marketing_name, model_code)
 SELECT b.id, i.marketing_name, i.model_code
@@ -62,10 +58,7 @@ WHERE NOT EXISTS (SELECT 1 FROM screen_parts WHERE LOWER(part_number)=LOWER('BG6
 
 WITH input(brand, marketing_name, model_code) AS (VALUES
  ('Tecno','Spark Go 2024','BG6'),
- ('Tecno','Spark 20','KJ5'),
- ('Infinix','Smart 8','X6525'),
- ('Infinix','Smart 8 Plus','X6526'),
- ('Infinix','Hot 40i','X6528 / X6528B')
+ ('Tecno','Spark Go 2024','BG6')
 )
 INSERT INTO devices (brand_id, marketing_name, model_code)
 SELECT b.id, i.marketing_name, i.model_code
@@ -85,5 +78,5 @@ JOIN brands b ON b.id=d.brand_id
 JOIN screen_parts sp ON LOWER(sp.part_number)=LOWER('BG6CL')
 WHERE b.name='Tecno' AND d.marketing_name='Spark Go 2024'
 ON CONFLICT (device_id, screen_part_id) DO UPDATE SET
- status='supplier_listed', evidence_source=EXCLUDED.evidence_source,
+ status='unverified', evidence_source=EXCLUDED.evidence_source,
  evidence_url=EXCLUDED.evidence_url, notes=EXCLUDED.notes;
