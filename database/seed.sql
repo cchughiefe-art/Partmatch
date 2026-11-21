@@ -18,15 +18,30 @@ WHERE d.brand_id=b.id AND b.name=v.brand_name AND d.marketing_name=v.phone_name;
 
 -- Supplier listing: GsmServer product #916763, FPC6605-5 / FPC6605-05 family.
 -- The listing explicitly names these seven device families.
-INSERT INTO screen_parts (part_number, screen_type, assembly_type, manufacturer, notes)
+INSERT INTO screen_parts
+ (part_number, screen_type, assembly_type, manufacturer, notes, color, quality_class, touchscreen, matrix_type, source_title, source_product_id)
 SELECT 'FPC6605-5', 'IPS LCD', 'LCD + touch, without frame', 'Aftermarket',
-       'Supplier listing also labels the family BF6, BF7, KI5Q and KI5K. Confirm flex and connector before fitting.'
+       'Supplier listing identifiers: BF7, BF6, KI5Q and KI5K. Supplier claim only; compare flex position, connector, dimensions and touch before installation.',
+       'Black', 'High Copy', 'With touchscreen', 'IPS',
+       'LCDs compatible with Tecno Pop 7 (BF6), Pop 7 Pro, Spark 10, Spark Go (2023) (BF7); Infinix Smart 7 (X6515), Smart 7 HD (X6516), black, without frame, High Copy, BF7, BF6, KI5q, KI5k',
+       'GsmServer 916763'
 WHERE NOT EXISTS (SELECT 1 FROM screen_parts WHERE LOWER(part_number)=LOWER('FPC6605-5'));
 
+UPDATE screen_parts SET
+ screen_type='IPS LCD', assembly_type='LCD + touch, without frame', manufacturer='Aftermarket',
+ color='Black', quality_class='High Copy', touchscreen='With touchscreen', matrix_type='IPS',
+ source_title='LCDs compatible with Tecno Pop 7 (BF6), Pop 7 Pro, Spark 10, Spark Go (2023) (BF7); Infinix Smart 7 (X6515), Smart 7 HD (X6516), black, without frame, High Copy, BF7, BF6, KI5q, KI5k',
+ source_product_id='GsmServer 916763'
+WHERE LOWER(part_number)=LOWER('FPC6605-5');
+
 WITH input(brand, marketing_name, model_code) AS (VALUES
- ('Tecno','Spark Go (2023)','BF7 / BF7N'),
+ ('Tecno','Spark Go (2023)','BF7'),
  ('Tecno','Pop 7','BF6'),
- ('Infinix','Smart 7','X6515')
+ ('Tecno','Pop 7 Pro',NULL),
+ ('Tecno','Spark 10','KI5Q'),
+ ('Tecno','Spark 10C','KI5K'),
+ ('Infinix','Smart 7','X6515'),
+ ('Infinix','Smart 7 HD','X6516')
 )
 INSERT INTO devices (brand_id, marketing_name, model_code)
 SELECT b.id, i.marketing_name, i.model_code
@@ -44,8 +59,8 @@ SELECT d.id, sp.id, 'unverified', 'GsmServer product listing',
 FROM devices d
 JOIN brands b ON b.id=d.brand_id
 JOIN screen_parts sp ON LOWER(sp.part_number)=LOWER('FPC6605-5')
-WHERE (b.name='Tecno' AND d.marketing_name IN ('Spark Go (2023)','Pop 7'))
-   OR (b.name='Infinix' AND d.marketing_name='Smart 7')
+WHERE (b.name='Tecno' AND d.marketing_name IN ('Spark Go (2023)','Pop 7','Pop 7 Pro','Spark 10','Spark 10C'))
+   OR (b.name='Infinix' AND d.marketing_name IN ('Smart 7','Smart 7 HD'))
 ON CONFLICT (device_id, screen_part_id) DO UPDATE SET
  status='unverified', evidence_source=EXCLUDED.evidence_source,
  evidence_url=EXCLUDED.evidence_url, notes=EXCLUDED.notes;
