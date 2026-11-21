@@ -74,14 +74,30 @@ for (const group of catalog.groups) {
     const brandId = brandRows[0].id;
     const existing = await sql.query(
       `SELECT id FROM devices WHERE brand_id = $1 AND LOWER(marketing_name) = LOWER($2)
-       AND COALESCE(LOWER(model_code), '') = COALESCE(LOWER($3), '') LIMIT 1`,
+       AND (COALESCE(LOWER(model_code), '') = COALESCE(LOWER($3), '')
+         OR COALESCE(LOWER(model_aliases), '') LIKE '%' || LOWER(COALESCE($3, '')) || '%') LIMIT 1`,
       [brandId, marketingName, modelCode]
     );
     let deviceId = existing[0]?.id;
     if (!deviceId) {
+      // Some supplier sheets reuse shorthand model codes across multiple marketing names.
+      // Preserve the searchable code as an alias on the secondary name instead of violating
+      // the database's (brand, model_code, region) uniqueness constraint.
+      let storedCode = modelCode;
+      let modelAliases = null;
+      if (modelCode) {
+        const codeOwner = await sql.query(
+          "SELECT id FROM devices WHERE brand_id = $1 AND LOWER(model_code) = LOWER($2) LIMIT 1",
+          [brandId, modelCode]
+        );
+        if (codeOwner.length) {
+          storedCode = null;
+          modelAliases = modelCode;
+        }
+      }
       const inserted = await sql.query(
-        "INSERT INTO devices (brand_id, marketing_name, model_code) VALUES ($1, $2, $3) RETURNING id",
-        [brandId, marketingName, modelCode]
+        "INSERT INTO devices (brand_id, marketing_name, model_code, model_aliases) VALUES ($1, $2, $3, $4) RETURNING id",
+        [brandId, marketingName, storedCode, modelAliases]
       );
       deviceId = inserted[0].id;
     }
