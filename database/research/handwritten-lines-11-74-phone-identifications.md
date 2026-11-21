@@ -83,3 +83,147 @@ Status: preliminary online identification. This file maps handwritten tokens to 
 - The handwritten transcription itself has ambiguous characters. Keep the raw token and source line alongside any normalized alias.
 - For unresolved tokens, request a clearer photo of the original line or search against a phone's About/Regulatory model code.
 
+
+
+## Additional exact-code cross-checks (21 November 2026)
+
+These findings tighten or correct several earlier broad mappings. Prefer these exact-code matches where they conflict with the preliminary row above.
+
+| Handwritten token | Verified model-name mapping | Evidence |
+|---|---|---|
+| CK6 | TECNO Camon 20 | NCC type-approval records |
+| CK7 / CK7N | TECNO Camon 20 Pro | NCC type-approval records |
+| CK8 / CK8N | TECNO Camon 20 Pro 5G | NCC type-approval records |
+| CK9 / CK9N | TECNO Camon 20 Premier 5G | NCC type-approval records |
+| 6710 | Infinix Note 30 VIP (X6710) | NCC type-approval records |
+| 678 / X678B | Infinix Note 30 Pro | NCC records show X678B; bare 678 is truncated |
+| KL4 | TECNO Spark Go 1; also Pop 9 4G in current supplier lists | NCC records KL4 as Pop 9; LCD catalogues also alias Spark Go 1 |
+| KL5 | TECNO Spark 30C | NCC type-approval records |
+| 6531 / X6531 | Infinix Hot 50i | NCC and model-code references |
+| 6532 / X6532 | Infinix Smart 9 | Model-code references |
+| A80 | itel A80 | Official itel catalogue |
+| 6857 / X6857 | Infinix Note 50X 5G | Model-code references; likely handwritten X omitted |
+| 6720 / X6720 | Infinix Hot 50 5G | NCC / device records |
+| CD8 | TECNO Camon 15 Pro | TECNO device-code references |
+| X660 / X660B / X660C | Infinix S5 Pro | NCC type-approval records |
+| LB8 / LB8A | TECNO Pouvoir 3 (Pouvoir 3 Plus variant family appears in parts catalogues) | NCC records identify LB8A as Pouvoir 3; retain exact suffix uncertainty |
+| CC9 | TECNO Camon 12 Pro | NCC type-approval records |
+| X653 | Infinix Smart 4 | NCC type-approval records |
+| BB4 | TECNO BB4 is an approved Tecno model code; exact commercial name is not consistently stated in NCC entry. Supplier lists pair BB4 with Smart 4 / BB4 family, but do not relabel as a confirmed phone name without suffix | NCC records |
+| X623 | Infinix Hot 6X | Supplier/device model lists |
+| X622 | Infinix Hot S3X | Supplier/device model lists |
+| KF8 / CG6 | TECNO Spark 7 Pro / TECNO Camon 17 respectively | Supplier LCD lists and device-code catalogue |
+| CE9 | TECNO Camon 16 Premier | TECNO model-code catalogue |
+| X687 | Infinix Zero 8; X687B is Zero 8i | Model-code references distinguish these; handwritten X687 must not be called Zero 8i automatically |
+| LE6 | TECNO Pova Neo | NCC records |
+| X688 / X688B / X688C | Infinix Hot 10 Play | Model-code references |
+| P37 Pro | itel P37 Pro (P681L/P681LM) | Device model catalogue |
+| KB8 / KB3 | TECNO Spark 3 Pro / iSky 3 | Supplier model lists |
+| CL6 / CL7 | TECNO Camon 30 / Camon 30 5G (CL6K/CL7K variants) | Supplier model lists |
+| X663 | Infinix Note 11 | Model-code references |
+| X6716 | Infinix Note 30i | Model-code references |
+| X671 | Infinix Note 12 5G | Model-code references |
+| X672 | Infinix Note 12 VIP | Model-code references |
+| X677 | Infinix Note 12i 2022 | Model-code references |
+| X670 | Infinix Note 12 G96 / Note 12 Turbo (market naming varies by region) | Device-code references |
+| KI7 | TECNO Spark 10 Pro | NCC records |
+| LH7 / LH7N | TECNO Pova 5 | Supplier panel/model lists |
+| LH8 / LH8N | TECNO Pova 5 Pro | Supplier panel/model lists |
+| X6831 | Infinix Hot 30 | NCC records |
+| X6832 | Infinix Hot 30 5G | Supplier model list |
+| X6833 / X6833B | Infinix Note 30 4G | Device-code lists |
+| X6836 | Infinix Hot 40 | NCC/device-code lists |
+| X6711 | Infinix Note 30 5G | NCC records |
+| KJ6 | TECNO Spark 20 Pro | Model-code catalogues |
+| KJ8 | TECNO Spark 20 Pro 5G | Display supplier code list |
+| X557 | Infinix Hot 4 | Device model lists |
+| X556 | Infinix Hot 4 Pro | Device model lists |
+| KE6 | TECNO Spark 6 Air | Device model lists |
+| KC1 / KC6 | TECNO Spark 4 Air / Spark Go family; KC1J and KC6 are variants | Supplier/device lists |
+| KC3 | Not established as a standalone phone code in the sources; appears in Camon 12 Air / KC3-related supplier grouping. Keep unexpanded until original code confirmed | Supplier references |
+| CC6 | TECNO Camon 12 Air | NCC records |
+| B1 | TECNO Pop 2F family | Device-code lists |
+| P13 | itel P13 | itel model catalogue |
+| CF7 | TECNO Camon i2 | TECNO model-code catalogue |
+| CF8 | TECNO Camon i2X / Camon i2 family | TECNO model-code catalogue |
+| BE8 | TECNO Pop 6 Pro | NCC records |
+| S18 | itel S18 | itel catalogue |
+| P38 | itel P38 (P661W) | NCC records |
+| 668 / X668 | Infinix Hot 12 Pro | Device-code lists |
+| KH6 | TECNO Spark 9T | NCC records |
+| KF7J | TECNO Spark 7P | Model-code catalogues |
+| KF7 | TECNO Spark 7 family / Spark 7P alias in some supplier lists; suffix is needed to distinguish variants | Supplier lists |
+| X689 | Infinix Hot 10S | Device-code lists |
+| X6823 | Infinix Smart 6 Plus | Device-code lists |
+| KG7 | TECNO Spark 8P | Model-code lists |
+| KH7 | TECNO Spark 9 Pro | NCC records for KH7H |
+| X662 | Infinix Hot 11 | NCC/device-code lists |
+| X626 | Infinix S4 | Supplier/device-code lists |
+| X627 | Infinix Smart 3 Plus | Supplier/device-code lists |
+| CB7 | TECNO Camon i4 / Camon 11S family | TECNO model-code catalogue |
+| KB7 / KB7J | TECNO Spark 3 | Device-code lists |
+| X624 | Infinix Hot 7 | Device-code lists |
+| CE7 | TECNO Camon 16 | TECNO model-code catalogue |
+| X682 | Infinix Hot 10 | Full suffix variants X682B/X682C |
+| X683 | Infinix Note 8i | Device-code lists |
+| LD7 | TECNO Pova | TECNO model-code catalogue |
+| KE7 | TECNO Spark 6 | TECNO model-code catalogue |
+| CH6 | TECNO Camon 18 | TECNO model-code catalogue |
+| CH7 | TECNO Camon 18P | NCC records |
+| CG7 | TECNO Camon 17P | TECNO model-code catalogue |
+| LE6J | TECNO Pova Neo 5G | Supplier display/model lists |
+| 6812 / X6812 | Infinix Hot 11S | Device-code lists |
+| 6815 / X6815 | Infinix Zero 5G | NCC records |
+| 6827 / X6827 | Infinix Hot 20S | Device-code lists |
+| X6819 | Infinix Note 12i | NCC records |
+| X6816 | Infinix Hot 12 Play | Device-code lists |
+| X6817 | Infinix Hot 12 | Device-code lists |
+| X6825 | Infinix Hot 20 Play | Device-code lists |
+| X6826 | Infinix Hot 20 | Device-code lists |
+| X6835 | Infinix Hot 30 Play | Device-code lists |
+| X6528 | Infinix Hot 40i | Device-code lists |
+| X650 | Infinix Hot 8 / Hot 8 Lite family | NCC and device-code lists |
+| CC7 | TECNO Camon 12 | TECNO model-code catalogue |
+| KC8 / KC2 | TECNO Spark 4 family | NCC / device-code lists |
+| KF6 | TECNO Spark 7 | Device-code lists |
+| X658 / X659 | Infinix Hot 10i family (X658B/E, X659B regional variants) | Device-code lists |
+| BD3 | TECNO Pop 5P | Display supplier lists |
+| KG6 / KG6K | TECNO Spark 8 | Device-code lists |
+| KG6K / S17 / A58 / A49 / A58 Pro | TECNO Spark 8 (KG6K); itel S17, A58, A49, A58 Pro | itel/Tecno device catalogues |
+| X6511 | Infinix Smart 6 | Device-code lists |
+| X6511C | Infinix Smart 6 HD / Hot 12i family is not a safe exact mapping; X6512 and X665 variants are distinct codes | Device-code lists |
+| BD4 / BD4J | TECNO Pop 5 LTE / Pop 5 Pro family | Supplier lists |
+| KG5 | TECNO Spark Go 2022 / Spark 8C family aliases; exact suffix required | Supplier model lists |
+| X665 | Infinix Hot 12i; X665E is Hot 20i | Device-code lists |
+| X6512 | Infinix Smart 6 HD | Model-code lists |
+| P17 | itel P17 | itel catalogue |
+| A27 | itel A27 | itel catalogue |
+| KL6 / X6882 | TECNO Spark 30 / Infinix Hot 50 respectively | Supplier screen lists |
+| City 200 | itel City 200 | Official itel catalogue |
+| City 100 | itel City 100 | Official itel catalogue |
+| A100 | itel A100 | Official itel catalogue |
+| KM8 | TECNO Spark Go 5G / itel City 100 shared model-code family in supplier catalogue | Supplier model lists |
+| 6730 / X6730 | Infinix Hot 60i 5G | Device-code references |
+| CG8 | TECNO Camon 17 Pro | TECNO model-code catalogue |
+| 6810 / X6810 | Infinix Zero X Neo | Device-code lists |
+| KM4 | TECNO Spark Go 2 | Supplier model lists |
+| KM5 | TECNO Spark 40 | Supplier model lists |
+| 6725 / X6725 | Infinix Smart 10 | Device-code references |
+| 6728 / X6728 | Infinix Hot 60i | Device-code references |
+| 6726 / X6726 | Infinix Hot 60 5G | Device-code references |
+| 6885 / X6885 | Infinix Hot 60 Pro | Device-code references |
+| 6873 / X6873 | Infinix GT 30 Pro | Device-code references |
+| LJ8 | TECNO Pova 7 Pro 5G | NCC type-approval records |
+
+### Primary online sources used for this cross-check
+- NCC approved handsets / type approval: https://www.ncc.gov.ng/page/approved-handsets ; https://www.ncc.gov.ng/industry/numbering-type-approval/type-approval
+- NCC records for Camon 20, Note 30 and newer model codes: https://www.ncc.gov.ng/page/approved-handsets?page=3 ; https://www.ncc.gov.ng/industry/numbering-type-approval/type-approval?page=58
+- Supplier/device code cross-reference: https://backup.gsmmart72.com/infinix-tecno-itel-universal-unit-combo-list/
+- Comprehensive model-code list: https://www.scribd.com/document/892962364/Models-List-1
+- LCD code catalogues: https://lcdsupport.in/models.php?brand=11 ; https://www.scribd.com/document/841152453/MEETO-NEW
+- Official itel catalogue: https://www.itel-life.com/products/phone
+- Infinix model code lookup: https://apexrepairinglab.com/infinix-model-check/
+- TECNO code catalogue: https://gsmmeta.com/devices/brand/tecno
+- NCC approved device records for Tecno and itel: https://findaphone.ng/ncc-approved-phones
+
+**Important:** a line may contain model codes from several manufacturers. This section identifies the device name associated with each code; it does not assume all those phones have the same original display assembly. Compatibility remains a separate supplier-panel claim requiring the exact FPC/connector and screen revision.
