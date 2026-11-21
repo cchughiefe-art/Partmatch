@@ -41,10 +41,19 @@ for (const statement of splitSqlStatements(seed)) await sql.query(statement);
 // Every relation remains supplier_listed; this importer never promotes supplier claims to bench-verified.
 const catalog = JSON.parse(await readFile(new URL("../database/research-catalog.json", import.meta.url), "utf8"));
 const source = catalog.source;
-const groupRows = catalog.groups.map((g) => ({ ref: g.ref, part: g.part }));
-const flatModels = catalog.groups.flatMap((g) => g.models.map(([brand, marketing_name, model_code]) => ({
-  ref: g.ref, brand, marketing_name, model_code: model_code || null
-})));
+const groupRows = catalog.groups.map((g) => {
+  const evidence = g.source || source;
+  return { ref: g.ref, part: g.part, notes: evidence.notes || source.notes, title: evidence.title || source.title };
+});
+const flatModels = catalog.groups.flatMap((g) => {
+  const evidence = g.source || source;
+  return g.models.map(([brand, marketing_name, model_code]) => ({
+    ref: g.ref, brand, marketing_name, model_code: model_code || null,
+    evidence_source: evidence.publisher || source.publisher,
+    evidence_url: evidence.url || source.url,
+    evidence_notes: evidence.notes || source.notes
+  }));
+});
 const uniqueDeviceRows = [...new Map(flatModels.map((m) => [
   `${m.brand.toLowerCase()}|${m.marketing_name.toLowerCase()}|${(m.model_code || "").toLowerCase()}`, m
 ])).values()];
@@ -60,15 +69,15 @@ await sql.query(
 
 await sql.query(
   `WITH incoming AS (
-     SELECT * FROM jsonb_to_recordset($1::jsonb) AS x(ref text, part text)
+     SELECT * FROM jsonb_to_recordset($1::jsonb) AS x(ref text, part text, notes text, title text)
    )
    INSERT INTO screen_parts
      (part_number, screen_type, assembly_type, manufacturer, notes, source_title, source_product_id, search_aliases)
-   SELECT i.part, 'LCD', 'Replacement LCD assembly; exact frame/touch variant must be checked',
-     'Aftermarket', $2, $3, i.ref, ''
+   SELECT i.part, 'LCD', 'Supplier-listed replacement display grouping; exact assembly variant must be checked',
+     'Aftermarket', i.notes, i.title, i.ref, ''
    FROM incoming i
    WHERE NOT EXISTS (SELECT 1 FROM screen_parts sp WHERE sp.source_product_id = i.ref)`,
-  [JSON.stringify(groupRows), source.notes, source.title]
+  [JSON.stringify(groupRows)]
 );
 
 await sql.query(
@@ -117,10 +126,12 @@ await sql.query(
 await sql.query(
   `WITH incoming AS (
      SELECT * FROM jsonb_to_recordset($1::jsonb)
-       AS x(ref text, brand text, marketing_name text, model_code text)
+       AS x(ref text, brand text, marketing_name text, model_code text,
+         evidence_source text, evidence_url text, evidence_notes text)
    ),
    matches AS (
-     SELECT DISTINCT d.id AS device_id, sp.id AS screen_part_id
+     SELECT DISTINCT d.id AS device_id, sp.id AS screen_part_id,
+       i.evidence_source, i.evidence_url, i.evidence_notes
      FROM incoming i
      JOIN brands b ON LOWER(b.name)=LOWER(i.brand)
      JOIN devices d ON d.brand_id=b.id AND LOWER(d.marketing_name)=LOWER(i.marketing_name)
@@ -131,13 +142,13 @@ await sql.query(
    )
    INSERT INTO compatibilities
      (device_id, screen_part_id, status, evidence_source, evidence_url, notes)
-   SELECT m.device_id, m.screen_part_id, 'supplier_listed', $2, $3,
-     'Explicitly grouped in supplier catalogue. Not independently bench-tested; verify exact model code, flex, connector, resolution, frame and touch revision before fitting.'
+   SELECT m.device_id, m.screen_part_id, 'supplier_listed', m.evidence_source, m.evidence_url,
+     COALESCE(m.evidence_notes, 'Supplier catalogue grouping; not independently bench-tested.')
    FROM matches m
    ON CONFLICT (device_id, screen_part_id) DO UPDATE SET
      status='supplier_listed', evidence_source=EXCLUDED.evidence_source,
      evidence_url=EXCLUDED.evidence_url, notes=EXCLUDED.notes`,
-  [JSON.stringify(flatModels), source.publisher, source.url]
+  [JSON.stringify(flatModels)]
 );
 const importedFitments = flatModels.length;
 
