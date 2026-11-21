@@ -18,4 +18,10 @@ for (const statement of statements) {
   await sql.query(statement);
 }
 
-console.log("PartMatch database schema is ready.");
+// Existing databases may retain an older CHECK constraint because CREATE TABLE IF NOT EXISTS
+// does not update constraints. Replace it explicitly so the current status vocabulary is applied.
+await sql.query("ALTER TABLE compatibilities DROP CONSTRAINT IF EXISTS compatibilities_status_check");
+await sql.query(`ALTER TABLE compatibilities ADD CONSTRAINT compatibilities_status_check
+  CHECK (status IN ('verified','supplier_listed','unverified','disputed','rejected'))`);
+
+console.log("PartMatch database schema and compatibility status constraint are ready.");
