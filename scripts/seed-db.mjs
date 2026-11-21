@@ -75,7 +75,7 @@ for (const group of catalog.groups) {
     const existing = await sql.query(
       `SELECT id FROM devices WHERE brand_id = $1 AND LOWER(marketing_name) = LOWER($2)
        AND (COALESCE(LOWER(model_code), '') = COALESCE(LOWER($3), '')
-         OR COALESCE(LOWER(model_aliases), '') LIKE '%' || LOWER(COALESCE($3, '')) || '%') LIMIT 1`,
+         OR ($3 IS NOT NULL AND COALESCE(LOWER(model_aliases), '') LIKE '%' || LOWER($3) || '%')) LIMIT 1`,
       [brandId, marketingName, modelCode]
     );
     let deviceId = existing[0]?.id;
