@@ -10,9 +10,6 @@ ON CONFLICT (name) DO NOTHING;
 UPDATE devices d SET model_code = v.model_code
 FROM brands b, (VALUES
  ('Tecno','Spark Go (2023)','BF7 / BF7N'),
- ('Tecno','Spark 10','KI5N / KI5Q'),
- ('Tecno','Spark 10C','KI5K / KI5M'),
- ('Tecno','Pop 7 Pro','BF7H'),
  ('Infinix','Smart 8','X6525 / X6525D'),
  ('Infinix','Smart 8 Plus','X6526'),
  ('Infinix','Hot 40i','X6528 / X6528B')
@@ -33,7 +30,7 @@ WITH input(brand, marketing_name, model_code) AS (VALUES
  ('Tecno','Pop 7','BF6'),
  ('Tecno','Pop 7 Pro','BF7H'),
  ('Infinix','Smart 7','X6515'),
- ('Infinix','Smart 7 HD','X6516')
+
 )
 INSERT INTO devices (brand_id, marketing_name, model_code)
 SELECT b.id, i.marketing_name, i.model_code
@@ -45,16 +42,16 @@ WHERE NOT EXISTS (
 );
 
 INSERT INTO compatibilities (device_id, screen_part_id, status, evidence_source, evidence_url, notes)
-SELECT d.id, sp.id, 'supplier_listed', 'GsmServer product listing',
+SELECT d.id, sp.id, 'unverified', 'GsmServer product listing',
  'https://gsmserver.com/en/lcd-compatible-with-tecno-pop-7-spark-go-2023-infinix-smart-7-black-without-frame-high-copy-bf7-bf6/',
  'Supplier explicitly lists this device as compatible with FPC6605-5. Aftermarket listing only, physical fit and touch must be tested.'
 FROM devices d
 JOIN brands b ON b.id=d.brand_id
 JOIN screen_parts sp ON LOWER(sp.part_number)=LOWER('FPC6605-5')
-WHERE (b.name='Tecno' AND d.marketing_name IN ('Spark Go (2023)','Spark 10','Spark 10C','Pop 7','Pop 7 Pro'))
-   OR (b.name='Infinix' AND d.marketing_name IN ('Smart 7','Smart 7 HD'))
+WHERE (b.name='Tecno' AND d.marketing_name IN ('Spark Go (2023)','Pop 7'))
+   OR (b.name='Infinix' AND d.marketing_name='Smart 7')
 ON CONFLICT (device_id, screen_part_id) DO UPDATE SET
- status='supplier_listed', evidence_source=EXCLUDED.evidence_source,
+ status='unverified', evidence_source=EXCLUDED.evidence_source,
  evidence_url=EXCLUDED.evidence_url, notes=EXCLUDED.notes;
 
 -- Supplier listing: Dama Mobile Spares SKU BG6CL. Separate replacement assembly.
@@ -80,14 +77,13 @@ WHERE NOT EXISTS (
 );
 
 INSERT INTO compatibilities (device_id, screen_part_id, status, evidence_source, evidence_url, notes)
-SELECT d.id, sp.id, 'supplier_listed', 'Dama Mobile Spares product listing (SKU BG6CL)',
+SELECT d.id, sp.id, 'unverified', 'Dama Mobile Spares product listing (SKU BG6CL)',
  'https://damamobilespares.co.ke/product/tecno-bg6-comp-lcd/',
  'Supplier listing explicitly groups this model with SKU BG6CL. Aftermarket supplier claim; verify connector, flex layout and physical fit.'
 FROM devices d
 JOIN brands b ON b.id=d.brand_id
 JOIN screen_parts sp ON LOWER(sp.part_number)=LOWER('BG6CL')
-WHERE (b.name='Tecno' AND d.marketing_name IN ('Spark Go 2024','Spark 20'))
-   OR (b.name='Infinix' AND d.marketing_name IN ('Smart 8','Smart 8 Plus','Hot 40i'))
+WHERE b.name='Tecno' AND d.marketing_name='Spark Go 2024'
 ON CONFLICT (device_id, screen_part_id) DO UPDATE SET
  status='supplier_listed', evidence_source=EXCLUDED.evidence_source,
  evidence_url=EXCLUDED.evidence_url, notes=EXCLUDED.notes;
