@@ -35,11 +35,11 @@ UPDATE screen_parts SET
 WHERE LOWER(part_number)=LOWER('FPC6605-5');
 
 WITH input(brand, marketing_name, model_code) AS (VALUES
- ('Tecno','Spark Go (2023)','BF7'),
+ ('Tecno','Spark Go (2023)','BF7 / BF7N'),
  ('Tecno','Pop 7','BF6'),
- ('Tecno','Pop 7 Pro',NULL),
+ ('Tecno','Pop 7 Pro','BF7 / BF7H'),
  ('Tecno','Spark 10','KI5Q'),
- ('Tecno','Spark 10C','KI5K'),
+ ('Tecno','Spark 10C','KI5K / KI5M'),
  ('Infinix','Smart 7','X6515'),
  ('Infinix','Smart 7 HD','X6516')
 )
