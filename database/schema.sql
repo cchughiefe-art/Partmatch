@@ -37,3 +37,10 @@ CREATE INDEX IF NOT EXISTS compatibilities_status_idx ON compatibilities(status)
 CREATE INDEX IF NOT EXISTS compatibilities_device_idx ON compatibilities(device_id);
 CREATE INDEX IF NOT EXISTS compatibilities_part_idx ON compatibilities(screen_part_id);
 -- No compatibility is considered bench-verified unless a technician confirms the fit.
+
+-- Legacy deployments created model_code as NOT NULL. Some supplier listings
+-- do not publish a handset code, so allow NULL while keeping the unique key.
+ALTER TABLE devices ALTER COLUMN model_code DROP NOT NULL;
+ALTER TABLE devices ADD COLUMN IF NOT EXISTS model_aliases TEXT;
+ALTER TABLE screen_parts ADD COLUMN IF NOT EXISTS search_aliases TEXT;
+CREATE INDEX IF NOT EXISTS screen_parts_search_aliases_idx ON screen_parts USING GIN (to_tsvector('simple', COALESCE(search_aliases,'')));
