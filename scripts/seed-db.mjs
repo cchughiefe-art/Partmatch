@@ -10,6 +10,9 @@ if (!connectionString) {
 const sql = neon(connectionString);
 const seed = await readFile(new URL("../database/seed.sql", import.meta.url), "utf8");
 const statements = seed
+  .split("\n")
+  .filter((line) => !line.trimStart().startsWith("--"))
+  .join("\n")
   .split(";")
   .map((statement) => statement.trim())
   .filter((statement) => statement.length > 0);
