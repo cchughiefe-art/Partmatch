@@ -44,3 +44,7 @@ ALTER TABLE devices ALTER COLUMN model_code DROP NOT NULL;
 ALTER TABLE devices ADD COLUMN IF NOT EXISTS model_aliases TEXT;
 ALTER TABLE screen_parts ADD COLUMN IF NOT EXISTS search_aliases TEXT;
 CREATE INDEX IF NOT EXISTS screen_parts_search_aliases_idx ON screen_parts USING GIN (to_tsvector('simple', COALESCE(search_aliases,'')));
+
+-- Older installations required a URL even when a listing came from a user-provided title.
+-- Preserve provenance without inventing a URL.
+ALTER TABLE compatibilities ALTER COLUMN evidence_url DROP NOT NULL;
