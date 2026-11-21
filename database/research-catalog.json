@@ -4183,6 +4183,792 @@
           ""
         ]
       ]
+    },
+    {
+      "ref": "CU-REDMI-06",
+      "part": "Notch LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 5A",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Go",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-07",
+      "part": "Notch LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 6A",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 6",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-08",
+      "part": "Notch LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 7",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Y3",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-10",
+      "part": "Punch-hole combo",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 9S",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 9 Pro 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 9 Pro Max",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 10 Lite",
+          ""
+        ],
+        [
+          "POCO",
+          "M2 Pro",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-11",
+      "part": "Notch LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi S2",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Y2",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-13",
+      "part": "Punch-hole single-flex",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "POCO",
+          "X3",
+          ""
+        ],
+        [
+          "POCO",
+          "X3 Pro",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Mi 10i",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 9 Pro 5G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-14",
+      "part": "Notch LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "POCO",
+          "C61",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi A3",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi A3X",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-15",
+      "part": "Punch-hole combo",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 12 Pro 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 12 Pro 5G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 12 Pro Plus 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 12 Pro Plus 5G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 12 Turbo 5G",
+          ""
+        ],
+        [
+          "POCO",
+          "X5 Pro",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-16",
+      "part": "Punch-hole single-flex",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "POCO",
+          "X6 5G",
+          ""
+        ],
+        [
+          "POCO",
+          "X6 Pro 4G",
+          ""
+        ],
+        [
+          "POCO",
+          "X6 Pro 5G",
+          ""
+        ],
+        [
+          "POCO",
+          "F6",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 13 Pro",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 13 Pro 5G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi K70E",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-18",
+      "part": "Notch LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi K50",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi K50 Pro",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi K60E",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-19",
+      "part": "Notch LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 8",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 8A",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 8A Dual",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-20",
+      "part": "Notch LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 9A",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 9A Sport",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 9AT",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 9i Sport",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Mi 10A",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 9C",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 9i",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 10A",
+          ""
+        ],
+        [
+          "POCO",
+          "C3",
+          ""
+        ],
+        [
+          "POCO",
+          "C31",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-21",
+      "part": "Punch-hole LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 10 Prime",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 10 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 11 4G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-23",
+      "part": "Notch combo",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "POCO",
+          "C55",
+          ""
+        ],
+        [
+          "POCO",
+          "C40",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 12C",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 10",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 10C",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 10 Power",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 11A",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-24",
+      "part": "Punch-hole LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 12 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 12 5G",
+          ""
+        ],
+        [
+          "POCO",
+          "X5 5G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-25",
+      "part": "Punch-hole LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 10 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 10S 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 11 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 11S 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 12S 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 11 SE 4G",
+          ""
+        ],
+        [
+          "POCO",
+          "M4 Pro 4G",
+          ""
+        ],
+        [
+          "POCO",
+          "M5S 4G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-26",
+      "part": "Punch-hole LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 10 Pro",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 10 Pro Max",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 11 Pro 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 11 Pro 5G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 11 Pro Plus 5G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 11E Pro",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Mi 11i 5G",
+          ""
+        ],
+        [
+          "POCO",
+          "X4 Pro 5G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-27",
+      "part": "Notch combo",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 14C 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 14C 5G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 14R 5G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi A4",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi A3 Pro",
+          ""
+        ],
+        [
+          "POCO",
+          "C71",
+          ""
+        ],
+        [
+          "POCO",
+          "C75",
+          ""
+        ],
+        [
+          "POCO",
+          "M7 5G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-28",
+      "part": "Side-flex LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi K20",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi K20 Pro",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Mi 9T",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Mi 9T Pro",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-29",
+      "part": "Punch-hole folder combo",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi Note 13 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 14 4G",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi Note 14 5G",
+          ""
+        ],
+        [
+          "POCO",
+          "M7 Pro 5G",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-32",
+      "part": "Notch LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 13T",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi 13T Pro",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi K60 Ultra",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-34",
+      "part": "Punch-hole LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi K60",
+          ""
+        ],
+        [
+          "Xiaomi",
+          "Redmi K60 Pro",
+          ""
+        ],
+        [
+          "POCO",
+          "F5 Pro",
+          ""
+        ]
+      ]
+    },
+    {
+      "ref": "CU-REDMI-36",
+      "part": "Notch LCD",
+      "source": {
+        "title": "Combo Universal 2026 — Xiaomi / POCO / Redmi / Mi Universal Combo List",
+        "publisher": "Combo Universal",
+        "url": "https://combouniversal.com/xiaomi-poco-redmi-mi-combo-universal-list/",
+        "notes": "Public supplier-published LCD/combo grouping, not OEM part number or bench test. Verify exact panel, flex, connector and variant physically."
+      },
+      "models": [
+        [
+          "Xiaomi",
+          "Redmi 15C",
+          ""
+        ],
+        [
+          "POCO",
+          "C85",
+          ""
+        ]
+      ]
     }
   ]
 }
