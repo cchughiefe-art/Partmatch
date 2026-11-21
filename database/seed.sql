@@ -47,7 +47,7 @@ WHERE NOT EXISTS (
 INSERT INTO compatibilities (device_id, screen_part_id, status, evidence_source, evidence_url, notes)
 SELECT d.id, sp.id, 'supplier_listed', 'GsmServer product listing',
  'https://gsmserver.com/en/lcd-compatible-with-tecno-pop-7-spark-go-2023-infinix-smart-7-black-without-frame-high-copy-bf7-bf6/',
- 'Supplier explicitly lists this device as compatible with FPC6605-5. Aftermarket listing only; physical fit and touch must be tested.'
+ 'Supplier explicitly lists this device as compatible with FPC6605-5. Aftermarket listing only, physical fit and touch must be tested.'
 FROM devices d
 JOIN brands b ON b.id=d.brand_id
 JOIN screen_parts sp ON LOWER(sp.part_number)=LOWER('FPC6605-5')
@@ -60,7 +60,7 @@ ON CONFLICT (device_id, screen_part_id) DO UPDATE SET
 -- Supplier listing: Dama Mobile Spares SKU BG6CL. Separate replacement assembly.
 INSERT INTO screen_parts (part_number, screen_type, assembly_type, manufacturer, notes)
 SELECT 'BG6CL', 'LCD', 'LCD + touch, without frame', 'Aftermarket',
-       'Supplier SKU BG6CL. Do not assume it is interchangeable with FPC6605-5; this is a separate listed assembly.'
+       'Supplier SKU BG6CL. Do not assume it is interchangeable with FPC6605-5, this is a separate listed assembly.'
 WHERE NOT EXISTS (SELECT 1 FROM screen_parts WHERE LOWER(part_number)=LOWER('BG6CL'));
 
 WITH input(brand, marketing_name, model_code) AS (VALUES
