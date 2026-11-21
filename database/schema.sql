@@ -1,6 +1,11 @@
 CREATE TABLE IF NOT EXISTS brands (
  id BIGSERIAL PRIMARY KEY, name TEXT NOT NULL UNIQUE, slug TEXT NOT NULL UNIQUE, created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+ALTER TABLE brands ADD COLUMN IF NOT EXISTS slug TEXT;
+UPDATE brands SET slug = trim(both '-' from lower(regexp_replace(name, '[^a-zA-Z0-9]+', '-', 'g'))) WHERE slug IS NULL OR slug = '';
+ALTER TABLE brands ALTER COLUMN slug SET NOT NULL;
+CREATE UNIQUE INDEX IF NOT EXISTS brands_slug_unique_idx ON brands(slug);
+
 CREATE TABLE IF NOT EXISTS devices (
  id BIGSERIAL PRIMARY KEY, brand_id BIGINT NOT NULL REFERENCES brands(id) ON DELETE RESTRICT,
  marketing_name TEXT NOT NULL, model_code TEXT, region TEXT, created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
