@@ -42,6 +42,11 @@ WHERE NOT EXISTS (
  WHERE d.brand_id=b.id AND LOWER(d.marketing_name)=LOWER(i.marketing_name)
 );
 
+DELETE FROM compatibilities c USING devices d, brands b, screen_parts sp
+WHERE c.device_id=d.id AND d.brand_id=b.id AND c.screen_part_id=sp.id
+  AND LOWER(sp.part_number)='fpc6605-5'
+  AND LOWER(b.name)='tecno' AND LOWER(d.marketing_name)='spark 10c';
+
 INSERT INTO compatibilities (device_id, screen_part_id, status, evidence_source, evidence_url, notes)
 SELECT d.id, sp.id, 'supplier_listed',
  'Supplier listing supplied by user',
